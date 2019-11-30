@@ -1,2 +1,7 @@
-package snackbar
-        class main snackbar
+package snackbar;
+
+public class main {
+    private static void snack() {
+
+    }
+}
