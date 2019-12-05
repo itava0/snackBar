@@ -1,4 +1,4 @@
-package src.snackbar;
+package src.snackBar;
 
 public class Main {
 }
