@@ -20,5 +20,32 @@ public class Snack {
     public Snack(String name, int quantity, double cost, int vendingMachineId) {
         maxId++;
         id = maxId;
+
+        this.name = name;
+        this.quantity = quantity;
+        this.cost = cost;
+        this.vendingMachineId = vendingMachineId;
+    }
+
+    // Getters and Setters
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public double getCost() {
+        return cost;
+    }
+
+    public int getVendingMachineId() {
+        return vendingMachineId;
     }
 }
