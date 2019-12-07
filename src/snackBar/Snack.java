@@ -52,4 +52,14 @@ public class Snack {
     public void setCost(double cost) {
         this.cost = cost;
     }
+
+    @Override
+    public String toString() {
+        String rtnStr = "id: " + id + "\n" +
+                        "name: " + name + "\n" +
+                        "quantity: " + quantity + "\n" +
+                        "cost: "  + cost + "\n" +
+                        "vending machine id: " + vendingMachineId +"\n";
+        return rtnStr;
+    }
 }
