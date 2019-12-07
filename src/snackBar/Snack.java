@@ -48,4 +48,8 @@ public class Snack {
     public int getVendingMachineId() {
         return vendingMachineId;
     }
+
+    public void setCost(double cost) {
+        this.cost = cost;
+    }
 }
