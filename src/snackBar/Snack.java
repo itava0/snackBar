@@ -27,7 +27,7 @@ public class Snack {
         this.vendingMachineId = vendingMachineId;
     }
 
-    // Getters and Setters
+    // Getters
 
     public int getId() {
         return id;
@@ -49,9 +49,26 @@ public class Snack {
         return vendingMachineId;
     }
 
-    public void setCost(double cost) {
+   //Setters
+     public void setId(int id) {
+        this.id = id;
+     }
+
+     public void setName(String name) {
+        this.name = name;
+     }
+
+     public void setQuantity(int quantity) {
+        this.quantity = quantity;
+     }
+
+     public void setCost(double cost) {
         this.cost = cost;
-    }
+     }
+
+     public void setVendingMachineId(int vendingMachineId) {
+        this.vendingMachineId = vendingMachineId;
+     }
 
     @Override
     public String toString() {
