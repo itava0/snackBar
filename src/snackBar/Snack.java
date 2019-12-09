@@ -70,6 +70,19 @@ public class Snack {
         this.vendingMachineId = vendingMachineId;
      }
 
+     //Methods, behaviors
+    public void addQuantity(int quantity) {
+        this.quantity += quantity;
+    }
+
+    public void buySnack(int quantity) {
+        this.quantity -= quantity;
+    }
+
+    public double getTotalCost(int quantity) {
+        return quantity * this.cost;
+    }
+
     @Override
     public String toString() {
         String rtnStr = "id: " + id + "\n" +
