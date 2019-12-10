@@ -85,11 +85,10 @@ public class Snack {
 
     @Override
     public String toString() {
-        String rtnStr = "id: " + id + "\n" +
+        return "id: " + id + "\n" +
                         "name: " + name + "\n" +
                         "quantity: " + quantity + "\n" +
                         "cost: "  + cost + "\n" +
                         "vending machine id: " + vendingMachineId +"\n";
-        return rtnStr;
     }
 }
