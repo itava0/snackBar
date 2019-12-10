@@ -28,5 +28,16 @@ public class Customer {
     }
 
     //Setters
+    public void setName(String name) {
+        this.name = name;
+    }
 
+    //Methods
+    public void addCash(double amount) {
+        this.cashOnHand += amount;
+    }
+
+    public void payCash(double amount) {
+        this.cashOnHand -= amount;
+    }
 }
