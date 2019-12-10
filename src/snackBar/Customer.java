@@ -18,4 +18,15 @@ public class Customer {
         this.name = name;
         this.cashOnHand = cashOnHand;
     }
+    //Getters
+    public String getName() {
+        return name;
+    }
+
+    public double getCash() {
+        return cashOnHand;
+    }
+
+    //Setters
+
 }
