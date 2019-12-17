@@ -23,7 +23,7 @@ public class Main{
         // Processing
 
         // START OF - 1st Processing Task
-        System.out.println("");
+        System.out.println("START OF - 1st Processing Task");
         System.out.println("BEFORE 1st PROCESS");
         System.out.println(customer1.getName() + "'s cash on hand: " + customer1.getCash());
         System.out.println("Snack name: " + snack4Soda.getName() + " - Snack ID: " + snack4Soda.getId() +
